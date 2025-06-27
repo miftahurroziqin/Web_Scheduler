@@ -32,7 +32,7 @@ File yang diunggah harus memiliki kolom:
 
 ## 🔐 OAuth2 Configuration (WordPress Developer Console)
 
-Kamu membutuhkan:
+Membutuhkan:
 - Client ID
 - Client Secret
 - Redirect URI → `http://localhost:8501`
@@ -50,5 +50,5 @@ https://public-api.wordpress.com/oauth2/token
 
 1. Install dependensi
 2. Jalankan aplikasi: streamlit run app.py
-3.Buka browser ke http://localhost:8501
+3. Buka browser ke http://localhost:8501
 
