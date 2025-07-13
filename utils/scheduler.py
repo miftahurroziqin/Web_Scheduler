@@ -28,8 +28,8 @@ def jadwalkan_semua_post(xlsx_path, access_token, site_url):
 
             if res['success']:
                 hasil.append(f"✅ Terjadwal: {title} ({res['status']}) → {res['url']}")
-            else:
-                hasil.append(f"❌ Gagal posting: {title} | Error: {res.get('error', '')}")
+            # else:
+            #     hasil.append(f"❌ Gagal posting: {title} | Error: {res.get('error', '')}")
         except Exception as err:
             hasil.append(f"⚠️ Error saat memproses baris {idx + 2}: {err}")
 
